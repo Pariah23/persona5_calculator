@@ -15,12 +15,12 @@
     <table id="statsTable" class="ui table unstackable striped">
         <thead>
         <tr>
-            <th ng:repeat="s in persona.statsHeader">{{s}}</th>
+            <th class="stats" ng:repeat="s in persona.statsHeader">{{s}}</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td ng:repeat="i in persona.stats track by $index">{{i}}</td>
+            <td class="stats" ng:repeat="i in persona.stats track by $index">{{i}}</td>
         </tr>
         </tbody>
     </table>
@@ -29,12 +29,12 @@
     <table class="ui table unstackable striped mobile-hidden">
         <thead>
         <tr>
-            <th ng:repeat="s in persona.elemsHeader">{{s}}</th>
+            <th class="stats" ng:repeat="s in persona.elemsHeader">{{s}}</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td ng:repeat="s in persona.elems track by $index" class="{{s}}">{{s}}</td>
+            <td class="stats" ng:repeat="s in persona.elems track by $index" class="{{s}}">{{s}}</td>
         </tr>
         </tbody>
     </table>
