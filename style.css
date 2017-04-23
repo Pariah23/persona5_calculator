@@ -81,7 +81,7 @@ tr:hover td:last-child {
 }
 
 .stats {
-    text-align: center;
+    text-align: center; !important
 }
 
 #skillList {
