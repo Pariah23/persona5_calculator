@@ -80,6 +80,10 @@ tr:hover td:last-child {
     margin-bottom: 10px;
 }
 
+.stats {
+    text-align: center;
+}
+
 #skillList {
     text-align: left;
 }
