@@ -18,7 +18,7 @@ class SkillListController {
         }
 
         // set the default sort param
-        $scope.sortBy = 'name';
+        $scope.sortBy = 'elemDisplay';
         $scope.reverse = false;
     }
 }
