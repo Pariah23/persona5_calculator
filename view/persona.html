@@ -34,7 +34,7 @@
         </thead>
         <tbody>
         <tr>
-            <td class="stats" ng:repeat="s in persona.elems track by $index" class="{{s}}">{{s}}</td>
+            <td ng:repeat="s in persona.elems track by $index" class="{{s}} stats">{{s}}</td>
         </tr>
         </tbody>
     </table>
