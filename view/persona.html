@@ -5,8 +5,7 @@
     <div ng:show='persona.max || persona.item || persona.rare || persona.note || persona.dlc'>
         <h3>Note</h3>
         <span style='color: red;' ng:show='persona.max'>Social link must be maxed!</span>
-        <span style='color: slateblue;' ng:show='persona.item'>Requires an item from one of Elizabeth's requests!</span>
-        <span style='color: slateblue;' ng:show='persona.rare'>This is a rare persona and cannot be fused!</span>
+        <span style='color: slateblue;' ng:show='persona.rare'>This is a treasure persona and cannot be fused!</span>
         <span style='color: slateblue;' ng:show='persona.note'>{{persona.note}}</span>
         <span style='color: slateblue;' ng:show='persona.dlc'>This is a DLC persona!</span>
     </div>
@@ -93,7 +92,7 @@
     <div ng:show="!persona.special && !persona.rare">
         <p><b>Note</b>: Don't get the same results? Remember to configure which DLC persona you own
             in <a href="#/setting/">Setting</a>.</p>
-        <p>Also, remember that rare persona fusion depends on your persona's current level.</p>
+        <p>Also, remember that treasure persona fusion depends on your persona's current level.</p>
     </div>
 
     <div class="caption">
@@ -137,7 +136,7 @@
     <div ng:show="!persona.special && !persona.rare">
         <p><b>Note</b>: Don't get the same results? Remember to configure which DLC persona you own
             in <a href="#/setting/">Setting</a>.</p>
-        <p>Also, remember that rare persona fusion depends on your persona's current level.</p>
+        <p>Also, remember that treasure persona fusion depends on your persona's current level.</p>
     </div>
 
     <div class="caption">
