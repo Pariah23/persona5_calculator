@@ -2,7 +2,7 @@
 <div ng:show="fusionTo" style="margin-top:10px">
     <h2>{{personaName}} ({{persona.level}} / {{persona.arcana}})</h2>
 
-    <div ng:show='persona.max || persona.item || persona.rare || persona.note || persona.dlc'>
+    <div ng:show='persona.max || persona.rare || persona.note || persona.dlc'>
         <h3>Note</h3>
         <span style='color: red;' ng:show='persona.max'>Social link must be maxed!</span>
         <span style='color: slateblue;' ng:show='persona.rare'>This is a treasure persona and cannot be fused!</span>
