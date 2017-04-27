@@ -2020,7 +2020,7 @@ var skillMap = {
         },
         "unique": "Magatsu-Izanagi"
     },
-    "Mage's Gift": {
+    "Magic Ability": {
         "effect": "Strengthen all magical attacks by 25%.",
         "element": "passive",
         "personas": {}
@@ -3038,8 +3038,8 @@ var skillMap = {
             "Uriel": 0
         }
     },
-    "Rainy Play": {
-        "effect": "Greatly increase evasion under rainy day or special weather warning.",
+    "Climate Decorum": {
+        "effect": "Doubles evasion against all skills during Rain, Pollen, or Flu.",
         "element": "passive",
         "personas": {
             "Choronzon": 33,
